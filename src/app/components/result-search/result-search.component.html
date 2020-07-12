@@ -1,0 +1,25 @@
+<div class="poster d-flex">
+  <div class="poster-img">
+    <img class="img-poster-dispay" [src]="itemImg.previewURL" />
+  </div>
+  <div class="d-flex align-items-center pl-4">
+    <span class="material-icons">
+      favorite
+    </span>
+    <span>{{ itemImg.favorites }}</span>
+  </div>
+
+  <div class="d-flex align-items-center pl-4">
+    <span class="material-icons">
+      loyalty
+    </span>
+    <span>{{ itemImg.tags }}</span>
+  </div>
+
+  <div class="d-flex align-items-center pl-4">
+    <span class="material-icons">
+      face
+    </span>
+    <span>{{ itemImg.user }}</span>
+  </div>
+</div>

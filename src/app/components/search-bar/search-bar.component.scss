@@ -1,0 +1,46 @@
+.backgrounnd-body {
+  background-image: url("../../../assets/img/background-texture.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.box-logo {
+  position: absolute;
+  height: 95px;
+  width: 104px;
+  background: #fff;
+  padding: 7px;
+  border-radius: 6px;
+  top: 13px;
+  left: 13px;
+  opacity: 0.4;
+  &:hover {
+    opacity: 1;
+  }
+  .logo {
+    left: 0;
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+.result-search {
+  width: 100%;
+  margin-left: auto;
+  border: 3px solid #53036d;
+  cursor: pointer;
+}
+
+.result-seach-items {
+  max-height: 400px;
+  overflow-y: auto;
+  width: 77%;
+  margin-left: auto;
+}
+
+

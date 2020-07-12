@@ -1,0 +1,17 @@
+.poster {
+  width: 100%;
+  background: #f8f8f8;
+}
+
+.poster-img {
+  width: 56px;
+  height: 72px;
+}
+.img-poster-dispay {
+  display: block;
+  width: 88px;
+  height: 72px;
+  object-fit: cover;
+  padding: 7px;
+  left: 8px;
+}
